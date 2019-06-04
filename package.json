@@ -1,0 +1,34 @@
+{
+  "name": "15puzzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha build/**/*.test.js",
+    "start": "node build/main.js",
+    "tslint": "tslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/cli": "^0.11.19",
+    "@types/keypress": "^2.0.30",
+    "@types/lodash": "^4.14.133",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.0.4",
+    "chai": "^4.2.0",
+    "clear": "^0.1.0",
+    "cli": "^1.0.1",
+    "keypress": "^0.2.1",
+    "lodash": "^4.17.11",
+    "typescript": "^3.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "ts-node": "^8.2.0",
+    "tslint": "^5.17.0"
+  }
+}
